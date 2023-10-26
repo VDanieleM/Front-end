@@ -129,8 +129,8 @@ article {
     border-color: #c2c2c2;
     border-width: 0.1em;
     border-style: solid;
-    margin: 1em;
     padding: 1em;
+    margin-top: 1em;
 }
 
 #video {
