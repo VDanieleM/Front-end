@@ -1,0 +1,265 @@
+/* IMPOSTAZIONI GENERALI */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+        font-family: 'Poppins', sans-serif;
+        background-image: url('../img/sfondo.png');
+        background-position-x: center;
+        background-size: auto;
+        background-repeat: repeat-y;
+}
+
+a {
+    color: #01A9CB;
+    font-weight: 600;
+}
+
+p {
+    margin-bottom: 2em;
+    margin-top: 2em;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    font-weight: 400;
+}
+
+img {
+    height: 4.5em;
+}
+
+/* HEADER */
+
+header {
+    background: linear-gradient(0deg, rgba(0,114,136,1) 0%, rgba(0,153,204,1) 100%);
+    margin: 5%;
+    block-size: auto;
+    padding: 8%;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    box-shadow: 1px 5px 10px rgb(36, 36, 36);
+}
+
+#epicode {
+    font-size: 1.1em;
+    margin-top: 10%;
+    margin-bottom: 7%;
+    font-weight: 600;
+}
+
+.navi {
+    
+    color: white;
+    font-size: 1.1em;
+    line-height: 1.5em;
+    text-decoration: none;
+    margin-top: 0;
+
+}
+
+header ul {
+    list-style-type: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* MAIN */
+
+main {
+background: white;
+margin: 5%;
+block-size: auto;
+padding: 6%;
+color: black;
+font-weight: 400;
+text-align: left;
+box-shadow: 1px 5px 10px rgb(36, 36, 36);
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+span {
+    color: #A33084;
+    font-weight: 600;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 10%;
+    line-height: 1.5em;
+
+}
+
+li {
+    margin-bottom: 0em;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+code {
+    background-color: #ececec;
+    border-color: #c2c2c2;
+    border-width: 0.1em;
+    border-style: solid;
+    border-radius: 10%;
+}
+
+ol {
+    list-style-type: decimal;
+    margin-left: 10%;
+    line-height: 1.5em;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 2em;
+    margin-bottom: 1em;
+    line-height: 1.5em;
+}
+
+h4 {
+    color: rgb(163, 163, 163);
+    font-size: 1.1em;
+    line-height: 1.7em;
+}
+
+article {
+    background-color: #ececec;
+    border-color: #c2c2c2;
+    border-width: 0.1em;
+    border-style: solid;
+    margin: 1em;
+    padding: 1em;
+}
+
+#video {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10%;
+}
+
+/* TABELLE */
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    padding: 1em;
+    text-align: center;
+}
+
+caption {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+thead {
+    background-color: #3366CC;
+    color: white;
+}
+
+thead td {
+    border-color: white;
+    border-style: solid;
+    border-width: 0.1em;
+}
+
+tbody tr:nth-child(2n) {
+    background-color: #f1f1f1;
+    border-color: rgb(216, 216, 216);
+    border-style: solid;
+    border-width: 0.1em;
+    border-left: 0;
+    border-right: 0;
+}
+
+tbody {
+    border-bottom: 0.15em;
+    border-color: #3366CC;
+    border-style: solid;
+}
+
+/* FORM */
+
+fieldset {
+    margin-top: 1em;
+    text-align: center;
+}
+
+input {
+    border-width: 0em 0em 0.1em 0em;
+    border-style: dashed;
+    height: 30px;
+    font-size: 1em;
+}
+
+button {
+    color: white;
+    background-color: #3366CC;
+    height: 30px;
+    font-size: 1em;
+    font-weight: 600;
+    border: none;
+}
+
+.data {
+    text-align: right;
+    margin-top: 1em;
+    font-size: 1em;
+}
+
+/* ELEMENTI NELL' ASIDE */
+
+h2 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.7em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+article p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+article h2 {
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+/* FOOTER */
+
+footer {
+    background: linear-gradient(0deg, rgba(43,52,56,1) 0%, rgba(0,85,102,1) 100%);
+    margin: 5%;
+    block-size: auto;
+    color: white;
+    padding: 6%;
+    font-weight: 400;
+    text-align: center;
+    box-shadow: 1px 5px 10px rgb(36, 36, 36);
+ }
+
+ footer p {
+    margin-top: 0%;
+    margin-bottom: 6%;
+    font-size: 1.1em;
+ }
+
+ address {
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-top: 0;
+    margin-bottom: 6%;
+ }
+
+ footer a {
+    color: #e32bff;
+ }
