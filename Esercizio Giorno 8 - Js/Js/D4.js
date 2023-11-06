@@ -30,7 +30,7 @@ crazySum(); */
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 /* let l5 = prompt("Inserisci un numero");
-let crazyDiff = () => {let diff; if (l5<19){diff = parseInt(l5/19)}{diff = parseInt((l5/19)*3)}; console.log(diff); return diff};
+let crazyDiff = () => {let diff; if (l5>19){diff = Math.abs(l5-19)}{diff = Math.abs((l5-19)*3)}; console.log(diff); return diff};
 crazyDiff(); */
 
 /* ESERCIZIO 4
@@ -59,7 +59,7 @@ let epify = () => {
     if (stringa.replace(/ .*/ /*,'') === "EPICODE")
     {result = stringa
     }else
-    {result = stringa += "EPICODE"};
+    {result = "EPICODE " + stringa};
     console.log(result);
     return result};
 epify(); */
@@ -74,16 +74,11 @@ epify(); */
 
 /* let numeropositivo = prompt("inserisci un numero positivo");
 let check3and7 = () => {
-    if (Math.sign(numeropositivo) === 1) {
-        if (numeropositivo % 3 === 0 || numeropositivo % 7 === 0) {
+        if (numeropositivo >= 0 && (numeropositivo % 3 === 0 || numeropositivo % 7 === 0)) {
             console.log("Il numero è divisibile per 3 o 7");
         } else 
         {console.log("Il numero non è divisibile per 3 o 7");
-        };
-    } else {
-        console.log("Il numero non è positivo");
-    }
-}
+        };}
 check3and7(); */
 
 /* ESERCIZIO 7
