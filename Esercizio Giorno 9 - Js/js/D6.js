@@ -233,12 +233,22 @@ console.log(millennio);  */
   Scrivi una funzione per calcolare la somma di tutti gli anni in cui sono stati prodotti i film contenuti nell'array fornito.
 */
 
-const riduzione = movies.reduce((elemento) => parseInt(elemento.Year) +=);
+/* const riduzione = movies.reduce((acc, value) => {
+  let film = parseInt(value.Year, 10);
+  return acc += film;
+}, 0);
+console.log(riduzione); */
 
 /* ESERCIZIO 14 (find)
   Scrivi una funzione per ottenere dall'array fornito uno specifico film (la funzione riceve un imdbID come parametro).
 */
 
+/* let arrayFilm = movies.find(elemento => elemento.imdbID === "tt2395427");
+console.log(arrayFilm); */
+
 /* ESERCIZIO 15 (findIndex)
   Scrivi una funzione per ottenere dall'array fornito l'indice del primo film uscito nell'anno fornito come parametro.
 */
+
+/* let primoFilm = movies.findIndex(elemento => elemento.Year === "2005");
+console.log(primoFilm); */
