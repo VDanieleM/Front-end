@@ -105,7 +105,20 @@ const paintItGreen = function () {
         La tabella avrà 5 elementi e questa struttura: immagine, nome prodotto, quantità, prezzo
      */
  
+        const generateTable = function () {
+            let tab = document.createElement("table");
+            let headers = ["immagine", "nome prodotto", "quantità", "prezzo"];
 
+            let tr = document.createElement("tr");
+            for (let i = 0; i < headers.length; i++) {
+                let th = document.createElement("th");
+                th.innerText = headers[i];
+                tr.appendChild(th);
+            }
+            tab.appendChild(tr);
+            document.body.appendChild(tab);
+           }
+           generateTable();
 
        /* ESERCIZIO 12
         Crea una funzione che aggiunga una riga alla tabella precedentemente creata e fornisca i dati necessari come parametri
