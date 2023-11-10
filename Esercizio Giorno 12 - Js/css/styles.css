@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+html {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    background: rgb(37,37,37);
+    background: -moz-linear-gradient(302deg, rgba(37,37,37,1) 0%, rgba(0,0,0,1) 100%);
+    background: -webkit-linear-gradient(302deg, rgba(37,37,37,1) 0%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(302deg, rgba(37,37,37,1) 0%, rgba(0,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#252525",endColorstr="#000000",GradientType=1);
+    text-align: center;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 5em;
+    padding-top: 1em;
+}
+
+#tabella {
+    background-color: rgba(228, 228, 228, 0.163);
+    display: inline-block;
+    margin: 5em;
+    margin-left: 15em;
+    margin-right: 15em;
+    border-radius: 1em;
+}
+
+#tabella div {
+    display: inline-block;
+    padding: 1em;
+    font-weight: 600;
+    border-radius: 30%;
+    margin: 0.3em;
+}
+
+#estrazione {
+    border-style: none;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.454);
+    color: rgb(255, 255, 255);
+    padding: 1em;
+    border-radius: 1em;
+    font-weight: 600;
+}
