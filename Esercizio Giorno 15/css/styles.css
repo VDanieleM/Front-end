@@ -1,0 +1,470 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body {
+    color: #742204;
+    font-family: 'Roboto', sans-serif;
+}
+
+b {
+    font-weight: bold;
+}
+
+nav {
+    background-color: #FEF7E2;
+    border-radius: 30%;
+    padding: 1em;
+    margin: 1em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+nav div img {
+    width: 22%;
+}
+
+nav>:first-child {
+    width: 70%;
+    display: flex;
+    font-size: 2em;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.buttonCont {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navButton {
+    background-color: #FFDF7F;
+    padding: 0.5em;
+    width: 30%;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 600;
+    margin: 0.5em;
+    padding: 1em;
+}
+
+div {
+    border-radius: 60px;
+}
+
+h1 {
+    font-size: 2.8em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.card {
+    border-radius: 60px;
+    background-color: #FEF7E2;
+    margin: 2em 1em;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    text-align: center;
+}
+
+.card p:first-of-type {
+    inline-size: 11em;
+    overflow-wrap: break-word;
+}
+
+.card div {
+    margin: 1em auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.card button {
+    background-color: #FFDF7F;
+    border: none;
+    border-radius: 60px;
+    padding: 0.5em 5em;
+    font-weight: 600;
+    color: #742204;
+    margin-bottom: 1em;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.5em;
+    margin-bottom: -0.7em;
+}
+
+aside {
+    border-radius: 30px;
+    background-color: #FEF7E2;
+    margin: 2em 1em;
+    padding: 1.5em;
+}
+
+h4 {
+    font-weight: 600;
+    font-size: 1.1em;
+    margin-bottom: 1em;
+}
+
+aside img {
+    width: 100%;
+    margin-top: 1.5em;
+}
+
+
+
+/*TABLET*/
+@media screen and (min-width: 481px) {
+    nav {
+        background-color: #FEF7E2;
+        border-radius: 0%;
+        padding: 1em;
+        margin: 0;
+        margin-top: 0;
+        margin-bottom: 2em;
+        display: flex;
+        justify-content: center;
+    }
+    
+    nav div img {
+        width: 35px;
+        margin-right: 10px;
+    }
+
+    nav div:last-of-type{
+        order: 3;
+    }
+    
+    nav>:first-child {
+        width: auto;
+        font-size: 1.5em;
+        order: 1;
+    }
+    
+    .buttonCont {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .navButton {
+        background-color: #FFDF7F;
+        padding: 0.5em;
+        text-align: center;
+        font-size: 1em;
+        font-weight: 600;
+        margin: auto 0.1em;
+        padding: 1em;
+        width: 100%;
+    }
+    div {
+        border-radius: 60px;
+    }
+
+    main {
+        padding: 0 1em;
+    }
+
+    #cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    h1 {
+        font-size: 2.8em;
+        font-weight: bold;
+        text-align: left;
+        margin-bottom: 0;
+    }
+    
+    .card {
+        border-radius: 50px;
+        background-color: #FEF7E2;
+        margin: 2em 0;
+        text-align: center;
+        width: 48%;
+    }
+    
+    h3 {
+        text-align: left;
+        font-weight: 600;
+        font-size: 1.5em;
+        margin-bottom: -0.7em;
+    }
+    
+    aside {
+        border-radius: 30px;
+        background-color: #FEF7E2;
+        margin: 2em 0;
+        padding: 1.5em;
+    }
+    
+    h4 {
+        font-weight: 600;
+        font-size: 1.1em;
+        margin-bottom: 1em;
+    }
+    
+    aside img {
+        width: 100%;
+        margin-top: 1.5em;
+    }
+}
+
+/*LAPTOP*/
+@media screen and (min-width: 769px) {
+    #container {
+        display: flex;
+    }
+
+    nav {
+        background-color: #FEF7E2;
+        border-radius: 0%;
+        padding: 1em;
+        margin: 0;
+        margin-top: 0;
+        margin-bottom: 2em;
+        display: block;
+    }
+    
+    nav div img {
+        width: 35px;
+        margin-right: 10px;
+    }
+
+    nav div:last-of-type{
+        order: 3;
+    }
+    
+    nav>:first-child {
+        width: auto;
+        font-size: 1.5em;
+        padding: 1em;
+        order: 1;
+    }
+    
+    .buttonCont {
+        display: block;
+    }
+    
+    .navButton {
+        background-color: #FFDF7F;
+        padding: 0.5em;
+        text-align: center;
+        font-size: 1em;
+        font-weight: 600;
+        margin: 1em;
+        padding: 2em 1em;
+        width: auto;
+    }
+    div {
+        border-radius: 60px;
+    }
+
+    main {
+        padding: 0 2em;
+
+    }
+
+    #cards {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        padding: 0;
+        margin-top: 1em;
+    }
+    
+    h1 {
+        font-size: 2.8em;
+        font-weight: bold;
+        text-align: left;
+        margin-top: 0.5em;
+        margin-bottom: 0;
+    }
+    
+    .card {
+        border-radius: 30px;
+        background-color: #FEF7E2;
+        margin: 0em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        text-align: center;
+        width: 20%;
+    }
+
+    .card p:first-of-type {
+        inline-size: 5em;
+        overflow-wrap: break-word;
+    }
+
+    .card button {
+        background-color: #FFDF7F;
+        border: none;
+        border-radius: 60px;
+        padding: 0.5em 1em;
+        font-weight: 600;
+        color: #742204;
+        margin-bottom: 1em;
+    }
+    
+    h3 {
+        text-align: left;
+        font-weight: 600;
+        font-size: 2em;
+        margin-top: 1em;
+        margin-bottom: -0.7em;
+    }
+    
+    aside {
+        border-radius: 30px;
+        background-color: #FEF7E2;
+        margin: 2em 0;
+        padding: 1.5em;
+    }
+    
+    h4 {
+        font-weight: 600;
+        font-size: 1.1em;
+        margin-bottom: 1em;
+    }
+    
+    aside img {
+        width: 100%;
+        margin-top: 1.5em;
+    }
+}
+
+/*DESKTOP*/
+@media screen and (min-width: 1025px) {
+    #container {
+        display: flex;
+    }
+
+    nav {
+        background-color: #FEF7E2;
+        border-radius: 0%;
+        padding: 1em;
+        margin: 0;
+        margin-top: 0;
+        margin-bottom: 2em;
+        display: block;
+    }
+    
+    nav div img {
+        width: 35px;
+        margin-right: 10px;
+    }
+
+    nav div:last-of-type{
+        order: 3;
+    }
+    
+    nav>:first-child {
+        width: auto;
+        font-size: 1.5em;
+        padding: 1em;
+        order: 1;
+    }
+    
+    .buttonCont {
+        display: block;
+    }
+    
+    .navButton {
+        background-color: #FFDF7F;
+        padding: 0.5em;
+        text-align: center;
+        font-size: 1em;
+        font-weight: 600;
+        margin: 1em;
+        padding: 2em 1em;
+        width: auto;
+    }
+    div {
+        border-radius: 60px;
+    }
+
+    main {
+        padding: 0 2em;
+
+    }
+
+    #cards {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        padding: 0;
+        margin-top: 1em;
+    }
+
+    #cards .card:last-of-type{
+        display: none;
+    }
+    
+    h1 {
+        font-size: 2.8em;
+        font-weight: bold;
+        text-align: left;
+        margin-top: 0.5em;
+        margin-bottom: 0;
+    }
+    
+    .card {
+        border-radius: 30px;
+        background-color: #FEF7E2;
+        margin: 0em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        text-align: center;
+        width: 30%;
+    }
+
+    .card p:first-of-type {
+        inline-size: 9em;
+        overflow-wrap: break-word;
+    }
+
+    .card button {
+        background-color: #FFDF7F;
+        border: none;
+        border-radius: 60px;
+        padding: 0.5em 1em;
+        font-weight: 600;
+        color: #742204;
+        margin-bottom: 1em;
+    }
+    
+    h3 {
+        text-align: left;
+        font-weight: 600;
+        font-size: 2em;
+        margin-top: 1em;
+        margin-bottom: -0.7em;
+    }
+    
+    aside {
+        border-radius: 30px;
+        background-color: #FEF7E2;
+        margin: 2em 0;
+        padding: 1.5em;
+    }
+    
+    h4 {
+        font-weight: 600;
+        font-size: 1.1em;
+        margin-bottom: 1em;
+    }
+    
+    aside img {
+        width: 100%;
+        margin-top: 1.5em;
+    }
+}
