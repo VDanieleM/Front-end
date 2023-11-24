@@ -1,0 +1,128 @@
+body {
+    background-color: gray;
+    font-family: 'Indie Flower', cursive;
+}
+
+#container {
+    margin-top: 5em;
+    padding: 0em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.postIt {
+    display: inline-block;
+    padding: 4em;
+    margin: 2em;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: rgb(54, 54, 54) 0px 5px 10px 0px;
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+    visibility: hidden;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 3.2em;
+}
+
+p {
+    font-size: 2em;
+    margin-left: 0.5em;
+    margin-top: 1em;
+}
+
+.gialli {
+    background: rgb(218,218,178);
+    background: -moz-linear-gradient(0deg, rgba(218,218,178,1) 0%, rgba(255,255,206,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(218,218,178,1) 0%, rgba(255,255,206,1) 100%);
+    background: linear-gradient(0deg, rgb(164, 164, 135) 0%, rgba(255,255,206,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#dadab2",endColorstr="#ffffce",GradientType=1);
+    rotate: -7deg;
+}
+
+.verdi {
+    background: rgb(177,221,179);
+    background: -moz-linear-gradient(0deg, rgba(177,221,179,1) 0%, rgba(202,252,204,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(177,221,179,1) 0%, rgba(202,252,204,1) 100%);
+    background: linear-gradient(0deg, rgb(138, 171, 139) 0%, rgba(202,252,204,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b1ddb3",endColorstr="#cafccc",GradientType=1);
+    rotate: 10deg;
+}
+
+.viola {
+    background: rgb(166,166,207);
+    background: -moz-linear-gradient(0deg, rgba(166,166,207,1) 0%, rgba(202,202,250,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(166,166,207,1) 0%, rgba(202,202,250,1) 100%);
+    background: linear-gradient(0deg, rgb(110, 110, 136) 0%, rgba(202,202,250,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a6a6cf",endColorstr="#cacafa",GradientType=1);
+    rotate: -10deg;
+}
+
+.gialli:hover{
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1) rotate(7deg);
+    transform: scale(1.1) rotate(7deg);
+}
+
+.verdi:hover {
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1) rotate(-10deg);
+    transform: scale(1.1) rotate(-10deg);
+}
+
+.viola:hover {
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1) rotate(10deg);
+    transform: scale(1.1) rotate(10deg);
+}
+
+@keyframes caduta {
+    0% { 
+        visibility: visible;
+        transform: translateY(-100%) scale(1.5); 
+    }
+    100% { 
+      transform: translateY(0) scale(1);
+      visibility: visible;
+    }
+  }
+
+#container div:nth-child(1) {
+    animation: caduta 2s forwards;
+    animation-delay: 0s;
+}
+
+#container div:nth-child(2) {
+    animation: caduta 2s forwards;
+    animation-delay: 1s;
+}
+#container div:nth-child(3) {
+    animation: caduta 2s forwards;
+    animation-delay: 2s;
+  }
+  #container div:nth-child(4) {
+    animation: caduta 2s forwards;
+    animation-delay: 3s;
+  }
+  #container div:nth-child(5) {
+    animation: caduta 2s forwards;
+    animation-delay: 4s;
+  }
+  #container div:nth-child(6) {
+    animation: caduta 2s forwards;
+    animation-delay: 5s;
+  }
+  #container div:nth-child(7) {
+    animation: caduta 2s forwards;
+    animation-delay: 6s;
+  }
+  #container div:nth-child(8) {
+    animation: caduta 2s forwards;
+    animation-delay: 7s;
+  }
