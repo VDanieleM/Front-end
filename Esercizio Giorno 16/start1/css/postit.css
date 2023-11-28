@@ -64,24 +64,6 @@ p {
     rotate: -10deg;
 }
 
-.gialli:hover{
-    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
-    -webkit-transform: scale(1.1) rotate(7deg);
-    transform: scale(1.1) rotate(7deg);
-}
-
-.verdi:hover {
-    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
-    -webkit-transform: scale(1.1) rotate(-10deg);
-    transform: scale(1.1) rotate(-10deg);
-}
-
-.viola:hover {
-    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
-    -webkit-transform: scale(1.1) rotate(10deg);
-    transform: scale(1.1) rotate(10deg);
-}
-
 @keyframes caduta {
     0% { 
         visibility: visible;
@@ -126,3 +108,21 @@ p {
     animation: caduta 2s forwards;
     animation-delay: 7s;
   }
+
+  .gialli:hover{
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1) rotate(7deg);
+    transform: scale(1.1) rotate(7deg);
+}
+
+.verdi:hover {
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1) rotate(-10deg);
+    transform: scale(1.1) rotate(-10deg);
+}
+
+.viola:hover {
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1) rotate(10deg);
+    transform: scale(1.1) rotate(10deg);
+}
