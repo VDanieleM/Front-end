@@ -2,4 +2,12 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-@mixin TitleBig {}
+$font-h1: 3em;
+
+$font-h2: 2em;
+
+$font-h3: 1em;
+
+$font-p: 0.7em;
+
+@mixin title-big {}
