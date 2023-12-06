@@ -25,16 +25,16 @@ document.querySelector('#cancella').addEventListener('click', () => {
 
 function updateCounter() {
     // Recupera il valore corrente dal sessionStorage
-    var currentValue = sessionStorage.getItem('counterValue');
+    let currentValue = sessionStorage.getItem('counterValue');
   
     // Se il valore non esiste, imposta il valore iniziale a 0
-    var newValue = (currentValue ? parseInt(currentValue, 10) : 0) + 1;
+    let newValue = (currentValue ? parseInt(currentValue, 10) : 0) + 1;
   
     // Aggiorna il valore nel sessionStorage
     sessionStorage.setItem('counterValue', newValue);
   
     // Aggiorna il display del contatore
-    document.getElementById('counter').textContent = 'Tempo trascorso: ' + newValue + ' secondi';
+    document.querySelector('#counter').textContent = 'Tempo trascorso: ' + newValue + ' secondi';
   
     // Richiama la funzione ogni secondo
     setTimeout(updateCounter, 1000);
