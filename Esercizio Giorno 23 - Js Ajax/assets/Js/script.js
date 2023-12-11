@@ -51,7 +51,6 @@ function cancella() {
     });
 }
 
-// Aggiungi questa funzione
 function aggiungiAlCarrello() {
     let buttons = document.querySelectorAll('.card .bgP'); // Seleziona tutti i bottoni "Compra ora"
     buttons.forEach(function(button) {
