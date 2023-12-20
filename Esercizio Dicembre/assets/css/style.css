@@ -1,0 +1,37 @@
+body {
+    height: 100dvh;
+    background: rgb(66,40,138);
+background: -moz-linear-gradient(0deg, rgba(66,40,138,1) 0%, rgba(152,35,209,1) 100%);
+background: -webkit-linear-gradient(0deg, rgba(66,40,138,1) 0%, rgba(152,35,209,1) 100%);
+background: linear-gradient(0deg, rgba(66,40,138,1) 0%, rgba(152,35,209,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#42288a",endColorstr="#9823d1",GradientType=1);
+}
+
+.centerDiv {
+    height: 100dvh;
+}
+
+form, .text-purple {
+    color: rgb(66,40,138);
+}
+
+#register-btn, #login-btn {
+    color: white;
+    background-color: rgb(66,40,138);
+}
+
+#register-btn:hover, #login-btn:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(107, 64, 227);
+    animation-duration: 1s;
+}
+
+.btnMenu {
+    color: rgb(182, 182, 182);
+    background-color: rgb(66,40,138);
+}
+
+.btnMenu:hover {
+    color: rgb(66,40,138);
+    background-color: rgb(255, 255, 255);
+}
